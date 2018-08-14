@@ -42,8 +42,12 @@ next-react-ssr
 ├─components                ----项目公用组件目录
 ├─comUtils                  ----工具类JavaScript
 ├─config                    ----项目请求路径配置
-├─env			            ----环境变量配置
+├─env                       ----环境变量配置
 ├─pages                     ----路由页面
 ├─server.js                 ----node服务器启动文件
 ├─next.config.js            ----next配置文件
 └─stores                    ----mobx状态管理库
+```
+# 项目示例图
+(static/images/ssr.jpg)
+(static/images/ssr1.jpg)
