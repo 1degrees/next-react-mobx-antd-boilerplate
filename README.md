@@ -49,5 +49,5 @@ next-react-ssr
 └─stores                    ----mobx状态管理库
 ```
 # 项目示例图
-(static/images/ssr.jpg)
-(static/images/ssr1.jpg)
+![示例图1](static/images/ssr.jpg)
+![示例图2](static/images/ssr1.jpg)
