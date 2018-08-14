@@ -35,6 +35,8 @@ UI框架方面，集成了 <https://ant.design/index-cn>
 2 npm run start
 
 # 项目目录结构
+``` lua
+next-react-ssr
 ├─.next                     ----项目编译目录
 ├─asserts                   ----项目资源文件目录
 ├─components                ----项目公用组件目录
