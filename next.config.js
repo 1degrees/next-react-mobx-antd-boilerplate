@@ -2,7 +2,7 @@
  * @Author: xiao·Zhang 
  * @Date: 2018-08-09 11:03:25 
  * @Last Modified by: xiao·Zhang
- * @Last Modified time: 2018-08-13 16:51:00
+ * @Last Modified time: 2018-08-15 09:17:32
  * @file: next配置文件（包括webpack，静态路由等等）
  */
 
@@ -11,7 +11,6 @@ const withLess = require('@zeit/next-less');
 const Dotenv = require('dotenv-webpack');
 
 console.log(process.env.NODE_ENV)
-
 module.exports = withLess({
   lessLoaderOptions: {
     javascriptEnabled: true,
