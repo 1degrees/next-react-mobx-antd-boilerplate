@@ -1,0 +1,74 @@
+.float-menu {
+  position: fixed;
+  bottom: 60px;
+  right: 45px;
+  z-index: 1000;
+  /* animation: anim2 0.6s ease 0.8s both; */
+}
+
+.float-menu .new-order a {
+    position: relative;
+    display: block;
+    width: 96px;
+    height: 96px;
+    opacity: 0.7;
+    background: url(//frontend.wanshifu.com/www/html/wan/images/foot/order.png) no-repeat scroll center center;
+}
+
+.float-menu .new-order a ul {
+    display: none;
+    position: absolute;
+    top: 2px;
+    width: 447px;
+    height: 80px;
+    padding-left: 30px;
+    background: url(//frontend.wanshifu.com/www/html/wan/images/foot/bg.png) no-repeat scroll center center;
+}
+
+.float-menu .new-order a ul li {
+  float: left;
+  margin-right: 25px;
+  opacity: 1;
+}
+
+.float-menu .new-order a ul h3 {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin: 18px 0 13px;
+}
+
+.float-menu .new-order a ul p {
+  font-size: 14px;
+  color: #333;
+}
+
+.float-menu .online-service {
+  position: relative;
+}
+
+.float-menu .online-service a {
+  display: block;
+  width: 96px;
+  height: 96px;
+  opacity: 0.7;
+  background: url(//frontend.wanshifu.com/www/html/wan/images/foot/qq.png) no-repeat scroll center center;
+}
+
+.float-menu .online-service a:hover {
+  background: url(//frontend.wanshifu.com/www/html/wan/images/foot/imon.png) no-repeat scroll center center;
+}
+
+.float-menu .online-service span {
+  display: none;
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  height: 12px;
+  padding: 1px 4px;
+  border-radius: 8px;
+  line-height: 12px;
+  font-size: 12px;
+  background: #f00;
+  color: #FFF;
+}
