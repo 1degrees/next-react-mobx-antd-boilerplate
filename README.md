@@ -41,6 +41,8 @@ UI框架方面，集成了 <https://ant.design/index-cn>
 
 2 npm run start
 
+3 浏览器打开http://localhost:8080
+
 # 项目目录结构
 ``` lua
 next-react-ssr
