@@ -1,3 +1,10 @@
+<!-- 
+* @Author: xiao·Zhang 
+* @Date: 2018-08-09 11:03:25 
+* @Last Modified by: xiao·Zhang
+* @Last Modified time: 2018-08-29 15:09:40
+* @file: node服务器启动文件（路由配置） 
+-->
 # next-react-mobx-antd-boilerplate
 
 UI框架方面，集成了 <https://ant.design/index-cn>
@@ -8,7 +15,7 @@ UI框架方面，集成了 <https://ant.design/index-cn>
 
 2 react 
 
-3 mobx 状态管理机，支持多个 stores 文件
+3 mobx 状态管理机，支持多 stores 文件
 
 4 axios 请求和响应拦截器
 
@@ -44,10 +51,11 @@ next-react-ssr
 ├─config                    ----项目请求路径配置
 ├─env                       ----环境变量配置
 ├─pages                     ----路由页面
+├─seo                       ----SEO优化配置
 ├─server.js                 ----node服务器启动文件
 ├─next.config.js            ----next配置文件
+├─static                    ----CDN静态资源目录
 └─stores                    ----mobx状态管理库
 ```
 # 项目示例图
 ![示例图1](static/images/ssr.jpg)
-![示例图2](static/images/ssr1.jpg)

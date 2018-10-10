@@ -4,7 +4,111 @@
     left: 0;
     height: 100px;
     width: 100%;
-    background: url(../images/header.jpg) no-repeat;
-    background-size: 100% 100px;
     z-index: 999;
+
+    .top-layer{
+        position: fixed;
+        left:0;
+        top: 0;
+        width: 100%;
+        background-color: rgba(0,0,0,0.7);
+        
+        .top-menu {
+            width: 100%;
+            min-width: 1200px;
+            height: 34px;
+            line-height: 34px;
+
+            >div {
+                width: 1200px;
+                height: 34px;
+                font-size: 12px;
+                margin: 0 auto;
+            }
+
+            .menu-nav {
+                display: inline-block;
+                float: right;
+                margin: 6px 15px 0 0;
+                height: 34px;
+                
+                li {
+                    line-height: 34px;
+                    color: #fff;
+                    padding: 0 5px;
+                    height: 34px;
+                    float: left;
+
+                    a {
+                        display: block;
+                        padding-right: 20px;
+                    }
+
+                    ul {
+                        margin-left: -1px;
+                        display: none;
+                        width: 102px;
+                        border: 1px solid #ddd;
+                        border-top: 0;
+                        background: #fff;
+                    }
+                }
+
+                li.head-submenu {
+                    color: #00b5d9;
+                    padding: 0;
+                    width: 102px;
+                    z-index: 99;
+                }
+            }
+        }
+
+        .head {
+            position: relative;
+            width: 100%;
+            height: 66px;
+            min-width: 1200px;
+            font-family: "Microsoft YaHei";
+
+            >div {
+                width: 1200px;
+                margin: 0 auto;
+                height: auto;
+
+                .logo {
+                    position: absolute;
+                    top: -19px;
+                    width: 380px;
+                }
+
+                .nav-link {
+                    float: right;
+                    height: auto;
+                    text-align: left;
+                    padding-bottom: 18px;
+
+                    a {
+                        position: relative;
+                        display: inline-block;
+                        margin: 0 21px;
+                        padding: 10px 10px 5px;
+                        text-align: center;
+                        font-size: 16px;
+                        color: #fff;
+                        vertical-align: top;
+                        text-decoration: none;
+
+                        .sp-of {
+                            background: url(//frontend.wanshifu.com/www/html/wan/images/fixedprice_l.png) no-repeat scroll 0 0;
+                            height: 21px;
+                            position: absolute;
+                            right: -40px;
+                            top: 7px;
+                            width: 42px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

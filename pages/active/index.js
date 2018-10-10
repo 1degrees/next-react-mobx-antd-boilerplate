@@ -1,23 +1,21 @@
 import React, { Component }from 'react'
-import { WithStore } from '../../stores';
 import Router, { withRouter } from 'next/router'
-import Layout from '../../components/Layout.js'
+import Layout from '@components/view/Layout.js'
 
 class Index extends Component {
   static getInitialProps({ req, res, err }) {
+    console.log('第二个页面getInitialProps')
     const statusCode = res ? res.statusCode : err ? err.statusCode : null;
     return { statusCode }
   }
 
   render() {
     return (
-      <WithStore>
-        <Layout>
-          <div className="container" style={{textAlign:'center',lineHeight:'200px'}}>
-              <div>活动页面</div>
-          </div>
-        </Layout>
-      </WithStore>
+      <Layout>
+        <div className="container" style={{textAlign:'center',lineHeight:'200px'}}>
+            <div>活动页面</div>
+        </div>
+      </Layout>
     )
   }
 }
