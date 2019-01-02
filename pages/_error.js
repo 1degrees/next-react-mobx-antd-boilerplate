@@ -27,8 +27,8 @@ export default class Error extends React.Component {
                     <a href="javascript:history.back(-1)">上一页</a>
                 </p>
                 <p>3.我猜你想要：
-                    <a href="http://www.wanshifu.com/">返回首页</a>
-                    <a href="http://www.wanshifu.com/helpcenter/feedback">意见反馈</a>
+                    <a href="//www.zhangxiao.club/">返回首页</a>
+                    <a href="//www.zhangxiao.club/helpcenter/feedback">意见反馈</a>
                 </p>
                 <p>
                   {this.props.statusCode
@@ -52,7 +52,7 @@ export default class Error extends React.Component {
             display: inline-block;
             width: 240px;
             height: 370px;
-            background: url(//frontend.wanshifu.com/serverErr/images/404-shifu.png) no-repeat;
+            background: url(//www.zhangxiao.club/serverErr/images/404-shifu.png) no-repeat;
           }
           .err404-img {
             text-align: left;
@@ -61,7 +61,7 @@ export default class Error extends React.Component {
             vertical-align: top;
             margin-top: 18px;
             padding: 128px 0 0 5px;
-            background: url(//frontend.wanshifu.com/serverErr/images/404.png) no-repeat;
+            background: url(//www.zhangxiao.club/serverErr/images/404.png) no-repeat;
           }
           .err404-img h4 {
             font-size: 22px;

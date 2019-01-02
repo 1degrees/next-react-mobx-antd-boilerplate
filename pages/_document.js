@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <link href="http://www.wanshifu.com/assets/images/favicon.ico" rel="shortcut icon"></link>
+          <link href="//www.zhangxiao.club/assets/images/favicon.ico" rel="shortcut icon"></link>
           <link href="/static/css/jquery.fullPage.css" rel="stylesheet"></link>
           <script src="/static/js/jquery-1.8.3.min.js"/>
           <script src="/static/js/jquery.fullPage.min.js"/>
